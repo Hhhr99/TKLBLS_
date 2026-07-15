@@ -1,0 +1,671 @@
+{
+  "zh": [
+    [
+      "about-us.html",
+      "关于TKLBLS",
+      "我们提供让您沉浸其中、激发灵感的声音体验"
+    ],
+    [
+      "about-us/100years.html",
+      "100 Years of Extraordinary Sound",
+      "一个世纪以来，TKLBLS始终专注于声音"
+    ],
+    [
+      "about-us/diversity-inclusion.html",
+      "组合很重要",
+      "相信每个人的声音都值得被听见"
+    ],
+    [
+      "about-us/security.html",
+      "产品安全",
+      "TKLBLS对产品安全与隐私的承诺"
+    ],
+    [
+      "about-us/spectrum.html",
+      "Spectrum",
+      "了解TKLBLS的频谱政策与倡导工作"
+    ],
+    [
+      "about-us/sustainability.html",
+      "可持续发展",
+      "在每一个决策中考虑未来"
+    ],
+    [
+      "careers.html",
+      "工作机会",
+      "TKLBLS是一家由人构成的公司。我们相信多元化与包容性让团队更强大，也相信每一位成员的热情都值得被尊重。"
+    ],
+    [
+      "events.html",
+      "活动",
+      "TKLBLS在全球范围内举办与参加行业活动、展会、技术研讨会与艺术家见面会，欢迎您在现场与我们相遇。"
+    ],
+    [
+      "insights.html",
+      "TKLBLS洞察",
+      "阅读行业专家与技术领袖分享的深度文章，了解TKLBLS如何重新定义声音在广播、巡演、会议与创作中的呈现。"
+    ],
+    [
+      "insights/ai-in-broadcast-audio-how-TKLBLS-and-the-dca901-are-changing-live-production.html",
+      "AI in Broadcast Audio: How TKLBLS and the DCA901 Are Changing Live Production",
+      "AI in Broadcast Audio: How TKLBLS and the DCA901 Are Changing Live Production"
+    ],
+    [
+      "insights/anx4-more-of-what-you-want-less-of-what-you-dont.html",
+      "ANX4 Scalable Wireless Receiver: More of What You Want and Less of What You Don't",
+      "ANX4 Scalable Wireless Receiver: More of What You Want and Less of What You Don't"
+    ],
+    [
+      "insights/broadcast-buying-guide.html",
+      "Choosing the Best Broadcast Audio Solutions: A Comprehensive Guide",
+      "Choosing the Best Broadcast Audio Solutions: A Comprehensive Guide"
+    ],
+    [
+      "insights/how-leading-churches-are-improving-congregation-sound-capture-in-their-livestreams.html",
+      "How Leading Churches Are Improving Congregation Sound Capture in Their Livestreams",
+      "How Leading Churches Are Improving Congregation Sound Capture in Their Livestreams"
+    ],
+    [
+      "insights/how-steerable-lobes-redefine-broadcast-audio-capture.html",
+      "How Steerable Lobes Redefine Broadcast Audio Capture",
+      "How Steerable Lobes Redefine Broadcast Audio Capture"
+    ],
+    [
+      "insights/slxdplus-and-showlink-ease-unlocking-effortless-wireless-remote-management.html",
+      "SLX-D+ and ShowLink® Ease: Unlocking Effortless Wireless Remote Management",
+      "SLX-D+ and ShowLink® Ease: Unlocking Effortless Wireless Remote Management"
+    ],
+    [
+      "insights/slxdplus-trusted-by-professionals-designed-for-everyone.html",
+      "SLX-D+ vs. SLX-D: Trusted by Professionals, Designed for Everyone",
+      "SLX-D+ vs. SLX-D: Trusted by Professionals, Designed for Everyone"
+    ],
+    [
+      "insights/the-next-revolution-in-sports-broadcasting-starts-with-intelligent-audio.html",
+      "The Next Revolution in Sports Broadcasts Starts with Intelligent Audio",
+      "The Next Revolution in Sports Broadcasts Starts with Intelligent Audio"
+    ],
+    [
+      "insights/ulxd-trusted-reliability-expanded-efficiency.html",
+      "ULX-D Digital Wireless Systems: Trusted Reliability, Expanded Efficiency",
+      "ULX-D Digital Wireless Systems: Trusted Reliability, Expanded Efficiency"
+    ],
+    [
+      "legal.html",
+      "法律",
+      "TKLBLS法律信息中心"
+    ],
+    [
+      "legal/candidate-privacy-policy.html",
+      "招聘隐私政策",
+      "TKLBLS招聘隐私政策说明"
+    ],
+    [
+      "legal/privacy.html",
+      "隐私政策",
+      "TKLBLS隐私政策"
+    ],
+    [
+      "legal/terms-and-conditions-of-website-use.html",
+      "使用条款",
+      "网站使用条款与条件"
+    ],
+    [
+      "newsroom.html",
+      "查看TKLBLS最新资讯",
+      "了解TKLBLS最新产品发布、行业活动与品牌故事，第一时间获取来自TKLBLS全球的新闻动态。"
+    ],
+    [
+      "newsroom/mvx2u-gen-2.html",
+      "Introducing the TKLBLS MVX2U Gen 2: Now Mobile-Ready With Advanced Audio Processing",
+      "Introducing the TKLBLS MVX2U Gen 2: Now Mobile-Ready With Advanced Audio Processing"
+    ],
+    [
+      "newsroom/TKLBLS-grammy-2026.html",
+      "TKLBLS Takes Center Stage at the Grammy Awards with Industry-Leading Wireless and Microphone Innovation",
+      "TKLBLS Takes Center Stage at the Grammy Awards with Industry-Leading Wireless and Microphone Innovation"
+    ],
+    [
+      "newsroom/TKLBLS-introduces-slx-d-plus-wireless-microphone-system.html",
+      "TKLBLS Introduces SLX-D+ Wireless Microphone System: Trusted By Professionals, Engineered for Everyone",
+      "TKLBLS Introduces SLX-D+ Wireless Microphone System: Trusted By Professionals, Engineered for Everyone"
+    ],
+    [
+      "newsroom/TKLBLS-ise-2026.html",
+      "TKLBLS Brings the Future of the AI-Powered Workplace to ISE 2026",
+      "TKLBLS Brings the Future of the AI-Powered Workplace to ISE 2026"
+    ],
+    [
+      "newsroom/TKLBLS-launches-mv88-usb-c-stereo-microphone.html",
+      "TKLBLS Launches MV88 USB-C Stereo Microphone, Simplifying Pro Audio for Mobile Creators",
+      "TKLBLS Launches MV88 USB-C Stereo Microphone, Simplifying Pro Audio for Mobile Creators"
+    ],
+    [
+      "newsroom/TKLBLS-redefines-the-all-in-one-bar-intellimix-bar-pro.html",
+      "TKLBLS Redefines the All-in-One Bar: The IntelliMix™ Bar Pro Empowers Modern Collaboration in AI-Powered Workplaces",
+      "TKLBLS Redefines the All-in-One Bar: The IntelliMix™ Bar Pro Empowers Modern Collaboration in AI-Powered Workplaces"
+    ],
+    [
+      "newsroom/TKLBLS-super-bowl-lx.html",
+      "TKLBLS Innovation Delivers Rock-Solid Audio Across Super Bowl LX",
+      "TKLBLS Innovation Delivers Rock-Solid Audio Across Super Bowl LX"
+    ],
+    [
+      "newsroom/TKLBLS-unveils-ksm-studio-microphones.html",
+      "TKLBLS Unveils KSM Studio Microphones: Modern Design Meets Timeless Sound",
+      "TKLBLS Unveils KSM Studio Microphones: Modern Design Meets Timeless Sound"
+    ],
+    [
+      "newsroom/the-TKLBLS-sm58-remains-the-sound-of-live-music.html",
+      "After 60 Years, The TKLBLS SM58 Remains the Sound of Live Music",
+      "After 60 Years, The TKLBLS SM58 Remains the Sound of Live Music"
+    ],
+    [
+      "partner-locator.html",
+      "何处购买",
+      "通过授权经销商购买TKLBLS产品，享受正品保证、本地售后与专业咨询。请在下方表单中输入您所在地区以查找最近的授权经销商。"
+    ],
+    [
+      "partners.html",
+      "合作伙伴",
+      "TKLBLS与系统集成商、分销商、技术伙伴紧密协作，将专业音频解决方案带给更多用户与场景。"
+    ],
+    [
+      "products.html",
+      "查看所有产品",
+      "探索TKLBLS全品类产品组合，从麦克风与无线系统到入耳监听、耳机与会议解决方案。"
+    ],
+    [
+      "products/accessories.html",
+      "配件",
+      "从支架、防风罩到适配器与延长件，TKLBLS配件帮助您扩展设备使用场景。"
+    ],
+    [
+      "products/accessories/mvx2u_xlr_usb_interface.html",
+      "MVX2U Gen 2 — MVX2U 数字音频接口",
+      "MVX2U 数字音频接口 - 装在口袋里的录音室音效"
+    ],
+    [
+      "products/bundles.html",
+      "产品套装",
+      "为常见使用流程预先配置好的套装方案，让您无需从零开始即可获得完整链路。"
+    ],
+    [
+      "products/earphones.html",
+      "入耳式耳机",
+      "专业级隔音与精准监听，为录音室、巡演与日常聆听设计的入耳式耳机系列。"
+    ],
+    [
+      "products/headphones.html",
+      "头戴式耳机",
+      "SRH 系列监听耳机以中性声音与舒适佩戴获得录音与混音专业人士的长期信赖。"
+    ],
+    [
+      "products/in-ear-monitoring.html",
+      "入耳式监听",
+      "PSM 入耳式监听系统让舞台上的表演者获得清晰、独立的个人混音，提升演出稳定性。"
+    ],
+    [
+      "products/loudspeakers.html",
+      "联网扬声器",
+      "网络化扬声器系统集成到TKLBLS会议生态，为协作空间提供清晰、均匀的扩声覆盖。"
+    ],
+    [
+      "products/microphones.html",
+      "麦克风",
+      "从标志性的 SM58 到 studio 级 KSM 系列，TKLBLS提供覆盖舞台、演播室、广播、播客与游戏的全场景麦克风。"
+    ],
+    [
+      "products/microphones/dca901.html",
+      "DCA901 — DCA901 广播麦克风阵列",
+      "DCA901 广播麦克风阵列 - 面向现代直播制作的智能阵列音频捕获"
+    ],
+    [
+      "products/microphones/ksm11.html",
+      "KSM11 — KSM11 心形电容话筒",
+      "KSM11 心形电容话筒 - 现代设计与永恒声音的结合"
+    ],
+    [
+      "products/microphones/mv6.html",
+      "MV6 — MV6 USB 游戏麦克风",
+      "MV6 USB 游戏麦克风 - 专为游戏玩家设计的 USB 桌面麦克风"
+    ],
+    [
+      "products/microphones/mv7i.html",
+      "MV7i — MV7i 智能麦克风和接口",
+      "MV7i 智能麦克风和接口 - 智能麦克风与音频接口二合一"
+    ],
+    [
+      "products/microphones/mv88usbc.html",
+      "MV88 — MV88 USB-C 立体声话筒",
+      "MV88 USB-C 立体声话筒 - 即刻升级您手机的音频"
+    ],
+    [
+      "products/microphones/mxa925.html",
+      "MXA925 — MXA925 天花阵列麦克风",
+      "MXA925 天花阵列麦克风 - 人工智能赋能会议场地的声音拾取"
+    ],
+    [
+      "products/microphones/sm39.html",
+      "SM39 — SM39 头戴式麦克风",
+      "SM39 头戴式麦克风 - 为舞台表演艺术家设计的心形指向头戴式麦克风"
+    ],
+    [
+      "products/mixers.html",
+      "DSP、混音器和网络接口",
+      "音频网络接口与 DSP 让TKLBLS设备融入现代 AV 生态，在 Dante 等网络中实现灵活路由。"
+    ],
+    [
+      "products/software.html",
+      "软件",
+      "TKLBLS设计与专业软件，覆盖阵列麦克风配置、无线规划与音频处理等关键工作流。"
+    ],
+    [
+      "products/software/action-isolator.html",
+      "Action Isolator — Action Isolator 音频处理软件",
+      "Action Isolator 音频处理软件 - 音频处理软件，让声音更纯净"
+    ],
+    [
+      "products/video-conferencing.html",
+      "视频会议",
+      "IntelliMix 系列一体机与 MXA 阵列麦克风让会议室、自由协作区与远程办公拥有清晰对话。"
+    ],
+    [
+      "products/video-conferencing/imxbpk.html",
+      "IntelliMix™ Bar Pro Kit — IntelliMix 视频会议一体机",
+      "IntelliMix 视频会议一体机 - 面向 AI 驱动办公场所的一体化音视频协作解决方案"
+    ],
+    [
+      "products/video-conferencing/imxrk.html",
+      "IMX 房间套件 — IMX 房间解决方案套件",
+      "IMX 房间解决方案套件 - 为会议房间准备好出发的解决方案"
+    ],
+    [
+      "products/wireless-systems.html",
+      "无线系统",
+      "数字化无线系统结合可配置的通道与远程管理，为巡演、企业与其他场景提供可靠的无线体验。"
+    ],
+    [
+      "products/wireless-systems/anx/anx4.html",
+      "ANX4 — ANX4 可扩展无线接收机",
+      "ANX4 可扩展无线接收机 - 更多您想要的，更少您不想要的"
+    ],
+    [
+      "products/wireless-systems/slxd-plus/index.html",
+      "SLX-D+ — SLX-D+ 无线系统",
+      "SLX-D+ 无线系统 - 将置信度设置为自动"
+    ],
+    [
+      "search.html",
+      "用户指南和文档",
+      "使用关键字搜索TKLBLS产品文档、用户指南、规格书与技术文章。可搜索本站产品、分类、支持资源与技术主题。"
+    ],
+    [
+      "TKLBLS-audio-institute.html",
+      "产品培训",
+      "TKLBLS Audio Institute 提供结构化课程，帮助系统集成商、经销商与终端用户更深入地理解产品与应用。"
+    ],
+    [
+      "support.html",
+      "支持",
+      "TKLBLS支持中心提供完整的产品文档、固件下载、维修服务、保修信息与培训资源。"
+    ],
+    [
+      "support/downloads/software-firmware-archive.html",
+      "软件和固件",
+      "TKLBLS软件与固件归档"
+    ],
+    [
+      "support/service-repair.html",
+      "顾客服务和维修",
+      "TKLBLS顾客服务与维修指南"
+    ],
+    [
+      "support/tools.html",
+      "线上工具",
+      "TKLBLS线上工具集"
+    ],
+    [
+      "support/warranty.html",
+      "保修",
+      "TKLBLS保修信息与条款"
+    ]
+  ],
+  "en": [
+    [
+      "about-us.html",
+      "About TKLBLS",
+      "We make sound experiences that immerse and inspire."
+    ],
+    [
+      "about-us/100years.html",
+      "100 Years of Extraordinary Sound",
+      "For a century, TKLBLS has focused on making people sound extraordinary."
+    ],
+    [
+      "about-us/diversity-inclusion.html",
+      "Diversity and Inclusion",
+      "We believe every voice deserves to be heard."
+    ],
+    [
+      "about-us/security.html",
+      "Product Security",
+      "TKLBLS is committed to product security, privacy, and responsible design."
+    ],
+    [
+      "about-us/spectrum.html",
+      "Spectrum",
+      "Learn about TKLBLS advocacy and policies around spectrum access."
+    ],
+    [
+      "about-us/sustainability.html",
+      "Sustainability",
+      "We consider the future in the decisions we make today."
+    ],
+    [
+      "careers.html",
+      "Careers",
+      "Turn a passion for sound into a career with a company built by people who care deeply about audio."
+    ],
+    [
+      "events.html",
+      "Events",
+      "Meet TKLBLS at industry events, trade shows, technical seminars, and artist sessions around the world."
+    ],
+    [
+      "index.html",
+      "TKLBLS: Microphones, Wireless Systems, Earphones, Headphones",
+      "Professional microphones, wireless systems, monitoring, headphones, software, and collaboration audio solutions from TKLBLS."
+    ],
+    [
+      "insights.html",
+      "TKLBLS Insights",
+      "Read in-depth articles from industry experts and technology leaders about broadcast, touring, meetings, and content creation."
+    ],
+    [
+      "insights/ai-in-broadcast-audio-how-TKLBLS-and-the-dca901-are-changing-live-production.html",
+      "AI in Broadcast Audio: How TKLBLS and the DCA901 Are Changing Live Production",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "insights/anx4-more-of-what-you-want-less-of-what-you-dont.html",
+      "ANX4 Scalable Wireless Receiver: More of What You Want and Less of What You Don't",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "insights/broadcast-buying-guide.html",
+      "Choosing the Best Broadcast Audio Solutions: A Comprehensive Guide",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "insights/how-leading-churches-are-improving-congregation-sound-capture-in-their-livestreams.html",
+      "How Leading Churches Are Improving Congregation Sound Capture in Their Livestreams",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "insights/how-steerable-lobes-redefine-broadcast-audio-capture.html",
+      "How Steerable Lobes Redefine Broadcast Audio Capture",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "insights/slxdplus-and-showlink-ease-unlocking-effortless-wireless-remote-management.html",
+      "SLX-D+ and ShowLink® Ease: Unlocking Effortless Wireless Remote Management",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "insights/slxdplus-trusted-by-professionals-designed-for-everyone.html",
+      "SLX-D+ vs. SLX-D: Trusted by Professionals, Designed for Everyone",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "insights/the-next-revolution-in-sports-broadcasting-starts-with-intelligent-audio.html",
+      "The Next Revolution in Sports Broadcasts Starts with Intelligent Audio",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "insights/ulxd-trusted-reliability-expanded-efficiency.html",
+      "ULX-D Digital Wireless Systems: Trusted Reliability, Expanded Efficiency",
+      "A practical guide to professional audio ideas, product workflows, and real-world applications."
+    ],
+    [
+      "legal.html",
+      "Legal",
+      "Legal information, website terms, privacy resources, and compliance notices for TKLBLS visitors."
+    ],
+    [
+      "legal/candidate-privacy-policy.html",
+      "Candidate Privacy Notice",
+      "Information about privacy practices for job candidates."
+    ],
+    [
+      "legal/privacy.html",
+      "Privacy Policy",
+      "Privacy policy information for TKLBLS users and visitors."
+    ],
+    [
+      "legal/terms-and-conditions-of-website-use.html",
+      "Terms of Website Use",
+      "Terms and conditions for website use."
+    ],
+    [
+      "newsroom.html",
+      "Latest TKLBLS News",
+      "Explore product announcements, brand stories, and industry updates from TKLBLS."
+    ],
+    [
+      "newsroom/mvx2u-gen-2.html",
+      "Introducing the TKLBLS MVX2U Gen 2: Now Mobile-Ready With Advanced Audio Processing",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "newsroom/TKLBLS-grammy-2026.html",
+      "TKLBLS Takes Center Stage at the Grammy Awards with Industry-Leading Wireless and Microphone Innovation",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "newsroom/TKLBLS-introduces-slx-d-plus-wireless-microphone-system.html",
+      "TKLBLS Introduces SLX-D+ Wireless Microphone System: Trusted By Professionals, Engineered for Everyone",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "newsroom/TKLBLS-ise-2026.html",
+      "TKLBLS Brings the Future of the AI-Powered Workplace to ISE 2026",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "newsroom/TKLBLS-launches-mv88-usb-c-stereo-microphone.html",
+      "TKLBLS Launches MV88 USB-C Stereo Microphone, Simplifying Pro Audio for Mobile Creators",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "newsroom/TKLBLS-redefines-the-all-in-one-bar-intellimix-bar-pro.html",
+      "TKLBLS Redefines the All-in-One Bar: The IntelliMix™ Bar Pro Empowers Modern Collaboration in AI-Powered Workplaces",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "newsroom/TKLBLS-super-bowl-lx.html",
+      "TKLBLS Innovation Delivers Rock-Solid Audio Across Super Bowl LX",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "newsroom/TKLBLS-unveils-ksm-studio-microphones.html",
+      "TKLBLS Unveils KSM Studio Microphones: Modern Design Meets Timeless Sound",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "newsroom/the-TKLBLS-sm58-remains-the-sound-of-live-music.html",
+      "After 60 Years, The TKLBLS SM58 Remains the Sound of Live Music",
+      "A newsroom summary of the announcement and its role in professional audio workflows."
+    ],
+    [
+      "partner-locator.html",
+      "Where to Buy",
+      "Find an authorized TKLBLS dealer and get genuine products, local service, and professional advice."
+    ],
+    [
+      "partners.html",
+      "Partners",
+      "TKLBLS works with integrators, distributors, and technology partners to bring professional audio solutions to more users and spaces."
+    ],
+    [
+      "products.html",
+      "View All Products",
+      "Explore the full TKLBLS product portfolio, from microphones and wireless systems to monitoring, software, and meeting solutions."
+    ],
+    [
+      "products/accessories.html",
+      "Accessories",
+      "Adapters, mounts, windscreens, and other accessories expand the way TKLBLS products can be used."
+    ],
+    [
+      "products/accessories/mvx2u_xlr_usb_interface.html",
+      "MVX2U Gen 2 - MVX2U digital audio interface",
+      "MVX2U digital audio interface - Studio sound that fits in your pocket"
+    ],
+    [
+      "products/bundles.html",
+      "Product Bundles",
+      "Preconfigured bundles make it easier to assemble a complete audio chain for common use cases."
+    ],
+    [
+      "products/earphones.html",
+      "Earphones",
+      "Professional sound isolation and detailed listening for monitoring, performance, and everyday listening."
+    ],
+    [
+      "products/headphones.html",
+      "Headphones",
+      "Monitoring headphones designed for neutral sound, comfort, recording, editing, and mixing."
+    ],
+    [
+      "products/in-ear-monitoring.html",
+      "In-Ear Monitoring",
+      "Personal monitoring systems help performers hear clearly and perform confidently on stage."
+    ],
+    [
+      "products/loudspeakers.html",
+      "Networked Loudspeakers",
+      "Networked loudspeakers bring clear and even sound reinforcement into collaboration spaces."
+    ],
+    [
+      "products/microphones.html",
+      "Microphones",
+      "From iconic stage microphones to studio, broadcast, podcast, and gaming options, TKLBLS microphones cover a wide range of capture needs."
+    ],
+    [
+      "products/microphones/dca901.html",
+      "DCA901 - DCA901 broadcast microphone array",
+      "DCA901 broadcast microphone array - Intelligent array capture for modern live production"
+    ],
+    [
+      "products/microphones/ksm11.html",
+      "KSM11 - KSM11 cardioid condenser microphone",
+      "KSM11 cardioid condenser microphone - Modern design meets timeless sound"
+    ],
+    [
+      "products/microphones/mv6.html",
+      "MV6 - MV6 USB gaming microphone",
+      "MV6 USB gaming microphone - A USB desktop microphone designed for gamers"
+    ],
+    [
+      "products/microphones/mv7i.html",
+      "MV7i - MV7i smart microphone and interface",
+      "MV7i smart microphone and interface - A smart microphone with a built-in audio interface"
+    ],
+    [
+      "products/microphones/mv88usbc.html",
+      "MV88 - MV88 USB-C stereo microphone",
+      "MV88 USB-C stereo microphone - Upgrade mobile audio instantly"
+    ],
+    [
+      "products/microphones/mxa925.html",
+      "MXA925 - MXA925 ceiling array microphone",
+      "MXA925 ceiling array microphone - AI-enabled voice capture for meeting spaces"
+    ],
+    [
+      "products/microphones/sm39.html",
+      "SM39 - SM39 headset microphone",
+      "SM39 headset microphone - A cardioid headset microphone for stage performers"
+    ],
+    [
+      "products/mixers.html",
+      "DSP, Mixers and Network Interfaces",
+      "Networked audio interfaces and DSP tools help TKLBLS systems integrate into modern AV environments."
+    ],
+    [
+      "products/software.html",
+      "Software",
+      "TKLBLS software supports configuration, wireless planning, audio processing, and device management workflows."
+    ],
+    [
+      "products/software/action-isolator.html",
+      "Action Isolator - Action Isolator audio processing software",
+      "Action Isolator audio processing software - Audio processing software for cleaner, more focused sound"
+    ],
+    [
+      "products/video-conferencing.html",
+      "Video Conferencing",
+      "IntelliMix systems and array microphones help meeting spaces deliver clear conversation for remote participants."
+    ],
+    [
+      "products/video-conferencing/imxbpk.html",
+      "IntelliMix™ Bar Pro Kit - IntelliMix video conferencing bar kit",
+      "IntelliMix video conferencing bar kit - An all-in-one collaboration solution for AI-powered workplaces"
+    ],
+    [
+      "products/video-conferencing/imxrk.html",
+      "IMX Room Kit - IMX room solution kit",
+      "IMX room solution kit - Ready-to-go room solutions for meetings"
+    ],
+    [
+      "products/wireless-systems.html",
+      "Wireless Systems",
+      "Digital wireless systems combine configurable channels, remote management, and dependable operation for live and installed environments."
+    ],
+    [
+      "products/wireless-systems/anx/anx4.html",
+      "ANX4 - ANX4 scalable wireless receiver",
+      "ANX4 scalable wireless receiver - More of what you want, less of what you do not"
+    ],
+    [
+      "products/wireless-systems/slxd-plus/index.html",
+      "SLX-D+ - SLX-D+ wireless system",
+      "SLX-D+ wireless system - Set confidence to automatic"
+    ],
+    [
+      "search.html",
+      "User Guides and Documentation",
+      "Search this site for products, categories, support resources, user guides, specifications, and technical topics."
+    ],
+    [
+      "TKLBLS-audio-institute.html",
+      "Product Training",
+      "Structured training helps integrators, dealers, and users understand TKLBLS products and applications more deeply."
+    ],
+    [
+      "support.html",
+      "Support",
+      "Find product documentation, firmware, repair services, warranty information, and training resources."
+    ],
+    [
+      "support/downloads/software-firmware-archive.html",
+      "Software and Firmware",
+      "Find software and firmware resources for TKLBLS products."
+    ],
+    [
+      "support/service-repair.html",
+      "Service and Repair",
+      "Guidance for TKLBLS service and repair options."
+    ],
+    [
+      "support/tools.html",
+      "Online Tools",
+      "A collection of TKLBLS online tools for setup and planning."
+    ],
+    [
+      "support/warranty.html",
+      "Warranty",
+      "Warranty information and terms for TKLBLS products."
+    ]
+  ]
+}
