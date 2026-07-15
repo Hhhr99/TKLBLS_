@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.shure.com.cn/sitemap.xml
+# DISABLED LEGACY BRAND REFERENCE: Sitemap: https://www.shure.com.cn/sitemap.xml

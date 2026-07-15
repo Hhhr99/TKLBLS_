@@ -1,3 +1,4 @@
+<# DISABLED LEGACY BRAND LEARNING SCRIPT
 $base = "C:\Users\Hhhr\OneDrive\Desktop\dulizhan\shure-clone\images"
 $h = Get-Content "$base\page.html" -Raw -Encoding UTF8
 
@@ -30,3 +31,5 @@ foreach ($m in $nav) {
     if ($n -ge 80) { break }
   }
 }
+
+#>

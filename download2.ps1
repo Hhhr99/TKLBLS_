@@ -1,3 +1,4 @@
+<# DISABLED LEGACY BRAND LEARNING SCRIPT
 # 强制下载所有 widen 图片到 images 目录
 $base = "C:\Users\Hhhr\OneDrive\Desktop\dulizhan\shure-clone\images"
 $content = [System.IO.File]::ReadAllLines("$base\all-images.txt")
@@ -27,3 +28,5 @@ foreach ($line in $content) {
   }
 }
 Write-Output ("---- DONE ok=" + $okCount + " fail=" + $failCount + " total=" + $i)
+
+#>

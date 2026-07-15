@@ -1,3 +1,4 @@
+<# DISABLED LEGACY BRAND LEARNING SCRIPT
 $base = "C:\Users\Hhhr\OneDrive\Desktop\dulizhan\shure-clone\images"
 $h = Get-Content "$base\page.html" -Raw -Encoding UTF8
 Write-Output ("LENGTH=" + $h.Length)
@@ -14,3 +15,5 @@ Write-Output "----IMAGES----"
 $img = [regex]::Matches($h, '(?:src|data-src|content)="([^"]*\.(?:png|jpg|jpeg|svg|webp)[^"]*)"')
 $i = 0
 foreach ($m in $img) { Write-Output $m.Groups[1].Value; $i++; if ($i -ge 60) { break } }
+
+#>

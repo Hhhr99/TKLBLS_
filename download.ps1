@@ -1,3 +1,4 @@
+<# DISABLED LEGACY BRAND LEARNING SCRIPT
 # 下载所有 TKLBLS.widen.net 图片到本地 images 目录
 $base = "C:\Users\Hhhr\OneDrive\Desktop\dulizhan\shure-clone\images"
 $urls = Get-Content "$base\all-images.txt" | Where-Object { $_.Trim().Length -gt 0 }
@@ -28,3 +29,5 @@ foreach ($u in $urls) {
 $map | Out-File "$base\url-map.txt" -Encoding UTF8
 Write-Output "----DONE----"
 Get-ChildItem "$base" -Include *.webp,*.jpeg,*.jpg,*.png -File | Measure-Object | ForEach-Object { Write-Output ("Files: " + $_.Count) }
+
+#>

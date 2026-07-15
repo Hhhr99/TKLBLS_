@@ -1,3 +1,4 @@
+<# DISABLED LEGACY BRAND LEARNING SCRIPT
 ﻿# gen.ps1 — 批量生成 TKLBLS 克隆站点所有跳转页面
 # 共享模板内用占位符 __R__ 表示到站点根 (shure-clone/) 的相对前缀
 $ErrorActionPreference = 'Stop'
@@ -1114,3 +1115,5 @@ $generatedCount = (Get-ChildItem $zh -Recurse -File -Filter *.html).Count
 $generatedEnCount = (Get-ChildItem (Join-Path $root 'en') -Recurse -File -Filter *.html).Count
 Write-Output ("TOTAL generated HTML in zh-CN: " + $generatedCount)
 Write-Output ("TOTAL generated HTML in en: " + $generatedEnCount)
+
+#>

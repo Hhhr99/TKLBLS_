@@ -1,3 +1,4 @@
+<# DISABLED LEGACY BRAND LEARNING SCRIPT
 # 下载推荐产品/其它 products.TKLBLS.com.cn 图片
 $base = "C:\Users\Hhhr\OneDrive\Desktop\dulizhan\shure-clone\images"
 $urls = [System.IO.File]::ReadAllLines("$base\prod-imgs.txt")
@@ -19,3 +20,5 @@ foreach ($u in $urls) {
   }
 }
 Write-Output ("---- PROD IMG DONE: " + $cnt)
+
+#>
