@@ -1,4 +1,3 @@
-<# DISABLED LEGACY BRAND LEARNING SCRIPT
 $base = "C:\Users\Hhhr\OneDrive\Desktop\dulizhan\shure-clone\images"
 $css = Get-Content "$base\e5a9070c3bfc5cfe.css" -Raw
 
@@ -19,5 +18,3 @@ Write-Output "----FONT FAMILY----"
 $ff = [regex]::Matches($css, 'font-family\s*:\s*([^;}]+)')
 $seen = @{}
 foreach ($m in $ff) { $v = $m.Groups[1].Value.Trim(); if (-not $seen.ContainsKey($v)) { $seen[$v]=1; Write-Output $v } }
-
-#>

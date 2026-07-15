@@ -1,4 +1,3 @@
-<# DISABLED LEGACY BRAND LEARNING SCRIPT
 $base = "C:\Users\Hhhr\OneDrive\Desktop\dulizhan\shure-clone\images"
 $cssUrls = @(
   "https://www.shure.com.cn/shureredesign/_next/static/css/e5a9070c3bfc5cfe.css",
@@ -12,5 +11,3 @@ foreach ($u in $cssUrls) {
   catch { Write-Output ("FAIL " + $u + " : " + $_.Exception.Message) }
 }
 Get-ChildItem "$base\*.css" | Select-Object Name,Length
-
-#>

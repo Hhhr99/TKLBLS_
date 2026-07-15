@@ -58,13 +58,6 @@
     });
   }
 
-  function disableLegacyBrandLinks() {
-    document.querySelectorAll('a[href]').forEach(function (link) {
-      if (!/(?:^|\.)shure(?:\.|china)|shure\.com/i.test(link.hostname || '')) return;
-      link.replaceWith(document.createComment(' DISABLED LEGACY BRAND REFERENCE: ' + link.outerHTML + ' '));
-    });
-  }
-
   function setupSearchPage() {
     if (!/\/(?:en|zh-CN)\/search\.html$/.test(location.pathname)) return;
     var heading = document.querySelector('.list-head');
@@ -512,7 +505,6 @@
   setupProductPage();
   setupMXA925Page();
   finalizeProductDetailFlow();
-  disableLegacyBrandLinks();
   setupIcons();
   setupCookiePreferences();
   setupForms();
