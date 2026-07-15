@@ -197,6 +197,16 @@ footer.site{background:#000;padding:48px 16px 32px;border-top:1px solid var(--gr
 .mainnav .mega-cols a{display:block;padding:9px 0;font-size:15px;color:var(--gray-t20);border-bottom:1px solid transparent;transition:color .15s,padding-left .15s}
 .mainnav .mega-cols a:hover{color:var(--green);padding-left:6px}
 .mainnav .mega-cols a.more{color:var(--green);font-weight:800}
+@media(min-width:901px){
+  .mainnav > ul > li.has-mega{position:static}
+  .mainnav .mega{position:fixed;top:var(--desktop-header-bottom,94px);left:0;right:0;width:100vw;min-width:0;padding:0;background:#050505;border-top:1px solid #1d1d1f;box-shadow:0 28px 60px rgba(0,0,0,.52);opacity:0;visibility:hidden;transform:translateY(-10px);clip-path:inset(0 0 100% 0);pointer-events:none;transition:opacity .3s ease,transform .3s cubic-bezier(.22,.61,.36,1),clip-path .3s cubic-bezier(.22,.61,.36,1),visibility 0s linear .3s}
+  .mainnav li.has-mega.open .mega{opacity:1;visibility:visible;transform:translateY(0);clip-path:inset(0 0 0 0);pointer-events:auto;transition-delay:0s}
+  .mainnav .mega-cols{width:min(var(--contentw),calc(100vw - 64px));min-height:300px;margin:0 auto;grid-template-columns:repeat(2,minmax(260px,380px));justify-content:start;gap:12px 72px;padding:42px 0 50px;background:transparent;border:0;border-radius:0;box-shadow:none}
+  .mainnav .mega-cols > ul{gap:5px;align-items:stretch}
+  .mainnav .mega-cols a{padding:10px 0;font-size:18px;line-height:1.25;color:#e8e8ed;border:0;letter-spacing:.01em;transition:color .16s ease,transform .18s cubic-bezier(.22,.61,.36,1)}
+  .mainnav .mega-cols a:hover,.mainnav .mega-cols a:focus-visible{color:var(--green);padding-left:0;transform:translateX(6px)}
+  .mainnav .mega-cols a.more{margin-top:8px;font-size:16px}
+}
 
 /* ---------- Responsive ---------- */
 @media(max-width:1040px){
@@ -369,7 +379,64 @@ footer.site{background:#000;padding:48px 16px 32px;border-top:1px solid var(--gr
 .standard-product-masthead .variant-group p{color:var(--gray-t20);font-size:15px;line-height:1.6}
 .standard-product-story h2{text-transform:none;font-size:clamp(1.8rem,3.5vw,3rem);line-height:1.15}
 .standard-product-story p{font-size:20px;color:#fff}
+
+/* Official product-page rhythm: white commerce area, dark editorial content. */
+.product-page .product-subnav{max-width:none;margin:0;padding:13px max(16px,calc((100vw - var(--contentw))/2));background:#fff;color:#000;border-bottom:1px solid #d2d2d2;backdrop-filter:none}
+.product-page .product-subnav a{color:#555}
+.product-page .product-subnav a:hover{color:#000}
+.product-page>.breadcrumb{max-width:none;margin:0;padding:12px max(16px,calc((100vw - var(--contentw))/2));background:#fff;color:#666}
+.product-page>.breadcrumb a{color:#666}
+.product-page>.breadcrumb a:hover{color:#000}
+.product-page>.breadcrumb span{color:#999}
+.product-page .mxa-masthead{max-width:none;margin:0;padding:64px max(16px,calc((100vw - var(--contentw))/2)) 88px;background:#fff;color:#000}
+.product-page .mxa-stage{background:#fff}
+.product-page .standard-product-masthead .mxa-stage{background:#fff}
+.product-page .mxa-thumbs button{background:#fff;border-color:#d5d5d5}
+.product-page .mxa-thumbs button:hover,.product-page .mxa-thumbs button.is-active{border-color:#000;background:#f4f4f4}
+.product-page .mxa-summary .eyebrow-s{color:#555}
+.product-page .mxa-deck,.product-page .standard-product-masthead .variant-group p{color:#555}
+.product-page .variant-group{border-top-color:#bdbdbd}
+.product-page .variant-choice{border-color:#aaa;color:#333;background:#fff}
+.product-page .variant-choice:hover,.product-page .variant-choice.is-active{border-color:#000;color:#fff;background:#000}
+.product-page .mxa-actions .btn-outline{background:#fff;color:#000;border-color:#aaa}
+.product-page .mxa-actions .btn-outline:hover{background:#000;color:#fff;border-color:#000}
+.product-page .mxa-masthead + .product-overview{border-top:0}
+.product-information{padding:72px max(16px,calc((100vw - var(--contentw))/2));background:#000;color:#000}
+.product-accordion{display:grid;gap:1px;background:#9a9a9a}
+.product-accordion article{background:#000;color:#fff;transition:background .2s,color .2s}
+.product-accordion article.is-open{background:#fff;color:#000}
+.product-accordion button{width:100%;padding:24px;display:flex;align-items:center;justify-content:space-between;color:inherit;text-align:left}
+.product-accordion button strong{font-size:20px}
+.product-accordion button span{font-size:28px;font-weight:400;line-height:1}
+.product-accordion article>div{padding:0 24px 28px;color:#333}
+.product-detail-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,440px);gap:48px;align-items:start}
+.product-detail-copy>p{font-size:17px;line-height:1.7;max-width:760px;margin-bottom:24px}
+.product-detail-media{aspect-ratio:1;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.product-detail-media img{width:86%;height:86%;object-fit:contain}
+.product-accordion ul{display:grid;gap:0;border-top:1px solid #d5d5d5}
+.product-accordion li{padding:14px 0;border-bottom:1px solid #d5d5d5;display:flex;justify-content:space-between;gap:24px}
+.product-accordion li b{font-weight:650}
+.product-accordion li span{color:#555;text-align:right}
+.product-accordion small{display:block;color:#666;margin-top:18px}
+.product-page .product-advantages{background:#000;color:#fff;padding-top:16px}
+.product-page .product-advantages>div{background:#444;border-top:1px solid #444}
+.product-page .product-advantages article{background:#1b1b1d;color:#fff}
+.product-page .product-advantages article span{color:#aaa}
+.product-page .product-advantages article h3{color:#fff}
+.product-page .product-advantages article p{color:#c7c7c7}
+.product-related{padding:72px max(16px,calc((100vw - var(--contentw))/2)) 96px;background:#000;color:#fff;border-top:1px solid #444}
+.product-related>h2{font-size:clamp(2rem,4vw,3.5rem);text-transform:uppercase;margin-bottom:0}
+.related-controls{display:flex;justify-content:flex-end;gap:10px;margin:-44px 0 28px}
+.related-controls button{width:42px;height:42px;border:1px solid #666;border-radius:50%;color:#fff;font-size:20px;transition:.2s}
+.related-controls button:hover{background:#fff;color:#000;border-color:#fff}
+.related-viewport{overflow-x:auto;scrollbar-width:none}
+.related-viewport::-webkit-scrollbar{display:none}
+.product-related .related-track{display:flex;grid-template-columns:none;gap:16px;margin-top:0;width:max-content}
+.product-related .related-track>.card{width:min(360px,78vw);flex:0 0 auto}
+@media(max-width:900px){.product-detail-panel{grid-template-columns:1fr;gap:28px}.product-detail-media{width:min(100%,520px)}}
+@media(max-width:760px){.product-information{padding-top:48px;padding-bottom:48px}.product-accordion button{padding:20px 18px}.product-accordion article>div{padding:0 18px 22px}.product-accordion li{flex-direction:column;gap:4px}.product-accordion li span{text-align:left}.product-related{padding-top:56px;padding-bottom:72px}.related-controls{margin:20px 0 20px;justify-content:flex-start}}
 @media(max-width:1240px){.mxa-masthead,.mxa-awards,.mxa-story,.mxa-documents{margin-left:16px;margin-right:16px}}
+@media(max-width:1240px){.product-page .mxa-masthead{margin-left:0;margin-right:0}}
 @media(max-width:900px){.mxa-masthead{grid-template-columns:1fr;gap:28px;margin-bottom:64px}.mxa-summary{position:static;padding-top:0}.mxa-story{grid-template-columns:1fr}.mxa-story>div:first-child{min-height:360px}}
 @media(max-width:600px){.mxa-masthead{margin-top:12px}.mxa-summary h1{font-size:4rem}.mxa-thumbs{grid-template-columns:repeat(4,84px);overflow-x:auto}.mxa-awards{padding:56px 0}.mxa-awards>div{gap:24px}.mxa-awards img{width:110px;height:86px}.mxa-story{margin-top:64px;margin-bottom:64px}.mxa-story>div:last-child{padding:32px 22px}.mxa-documents{padding:64px 0}.mxa-documents>div{grid-template-columns:1fr}}
 
@@ -485,4 +552,8 @@ html.is-navigating{cursor:progress}
   .cat-card:hover,.prod:hover,.card:hover{transform:none}
   .nav-toggle{transition:none}
   body.nav-open .mainnav,.nav-scrim{transition:none}
+}
+@media(min-width:901px) and (prefers-reduced-motion:reduce){
+  .mainnav .mega{transition:opacity .3s ease,transform .3s cubic-bezier(.22,.61,.36,1),clip-path .3s cubic-bezier(.22,.61,.36,1),visibility 0s linear .3s!important}
+  .mainnav li.has-mega.open .mega{transition-delay:0s!important}
 }

@@ -44,6 +44,20 @@
     });
   }
 
+  function setupMegaMenuGeometry() {
+    var header = document.querySelector('header.site');
+    if (!header) return;
+    function update() {
+      document.documentElement.style.setProperty('--desktop-header-bottom', Math.max(0, Math.round(header.getBoundingClientRect().bottom)) + 'px');
+    }
+    update();
+    window.addEventListener('resize', update, {passive:true});
+    document.querySelectorAll('.mainnav .mega-trigger').forEach(function (trigger) {
+      trigger.addEventListener('pointerenter', update);
+      trigger.addEventListener('focus', update);
+    });
+  }
+
   function setupSearchPage() {
     if (!/\/(?:en|zh-CN)\/search\.html$/.test(location.pathname)) return;
     var heading = document.querySelector('.list-head');
@@ -178,11 +192,14 @@
     document.body.classList.add('product-page');
     var name = isEnglish ? data.en : data.cn;
     var features = isEnglish ? data.featuresEn : data.featuresCn;
+    var media = productMedia[key] || [];
+    var detailImage = media[0] ? root + 'images/' + media[0] : '';
     var nav = document.createElement('nav');
     nav.className = 'product-subnav';
     nav.setAttribute('aria-label', isEnglish ? 'Product sections' : '产品页导航');
     nav.innerHTML = '<strong>' + name + '</strong><div><a href="#overview">' + (isEnglish ? 'Overview' : '概览') + '</a><a href="#advantages">' + (isEnglish ? 'Benefits' : '产品优势') + '</a><a href="#specifications">' + (isEnglish ? 'Specifications' : '规格') + '</a><a href="#documents">' + (isEnglish ? 'Downloads' : '下载') + '</a></div>';
-    hero.insertAdjacentElement('beforebegin', nav);
+    var breadcrumb = document.querySelector('.breadcrumb');
+    (breadcrumb || hero).insertAdjacentElement('beforebegin', nav);
     article.id = 'overview';
     article.className = 'product-overview';
     article.innerHTML = '<span class="eyebrow-s">' + (isEnglish ? 'Product Overview' : '产品概览') + '</span><h2>' + name + '</h2><p class="lead">' + features[0] + '</p>';
@@ -242,6 +259,81 @@
       masthead.querySelectorAll('.mxa-thumbs button,.variant-choice').forEach(function (item) { item.classList.toggle('is-active', item === button || item.getAttribute('data-image') === src); });
     }
     masthead.querySelectorAll('[data-image]').forEach(function (button) { button.addEventListener('click', function () { selectImage(button.getAttribute('data-image'), button); }); });
+  }
+
+  function finalizeProductDetailFlow() {
+    if (!document.body.classList.contains('product-page')) return;
+    var match = location.pathname.match(/\/([^/]+)\.html$/);
+    var key = /\/slxd-plus\/?(?:index\.html)?$/.test(location.pathname) ? 'slxdplus' : match && match[1];
+    var data = key && productData[key];
+    if (!data) return;
+    var name = isEnglish ? data.en : data.cn;
+    var features = isEnglish ? data.featuresEn : data.featuresCn;
+    var overview = document.querySelector('.product-overview');
+    var advantages = document.querySelector('.product-advantages');
+    if (!overview || !advantages) return;
+
+    var detailsTitle = isEnglish ? 'Details' : '详细信息';
+    var packageTitle = isEnglish ? 'In the box' : '包装清单';
+    var subnavLinks = document.querySelector('.product-subnav div');
+    if (subnavLinks) subnavLinks.innerHTML = '<a href="#overview">' + detailsTitle + '</a><a href="#advantages">' + (isEnglish ? 'Benefits' : '产品优势') + '</a><a href="#related-products">' + (isEnglish ? 'Related products' : '相关产品') + '</a>';
+    document.querySelectorAll('.mxa-actions a[href="#documents"]').forEach(function (link) { link.remove(); });
+    var details = document.createElement('section');
+    details.id = 'overview';
+    details.className = 'product-information';
+    details.innerHTML = '<div class="product-accordion"><article class="is-open"><button type="button" aria-expanded="true"><strong>' + detailsTitle + '</strong><span>−</span></button><div class="product-detail-panel"><div class="product-detail-copy"><p>' + features.join(isEnglish ? '. ' : '。') + (isEnglish ? '.' : '。') + '</p><ul>' + data.specs.map(function (row) { return '<li><b>' + row[0] + '</b><span>' + row[1] + '</span></li>'; }).join('') + '</ul></div>' + (detailImage ? '<figure class="product-detail-media"><img src="' + detailImage + '" alt="' + name + '"></figure>' : '<figure class="product-detail-media" aria-hidden="true"></figure>') + '</div></article><article><button type="button" aria-expanded="false"><strong>' + packageTitle + '</strong><span>＋</span></button><div hidden><ul><li><b>' + name + '</b><span>× 1</span></li><li><b>' + (isEnglish ? 'Quick start guide' : '快速入门指南') + '</b><span>× 1</span></li><li><b>' + (isEnglish ? 'Safety and warranty information' : '安全与保修信息') + '</b><span>× 1</span></li></ul><small>' + (isEnglish ? 'Included items may vary by model and region.' : '包装内容可能因具体型号和销售地区而异。') + '</small></div></article></div>';
+    overview.replaceWith(details);
+    details.querySelectorAll('.product-accordion button').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var item = button.parentElement;
+        var panel = button.nextElementSibling;
+        var open = button.getAttribute('aria-expanded') === 'true';
+        if (!open) {
+          details.querySelectorAll('.product-accordion article.is-open').forEach(function (other) {
+            if (other === item) return;
+            var otherButton = other.querySelector('button');
+            var otherPanel = otherButton && otherButton.nextElementSibling;
+            other.classList.remove('is-open');
+            otherButton.setAttribute('aria-expanded', 'false');
+            otherButton.querySelector('span').textContent = '＋';
+            if (otherPanel) otherPanel.hidden = true;
+          });
+        }
+        button.setAttribute('aria-expanded', String(!open));
+        button.querySelector('span').textContent = open ? '＋' : '−';
+        item.classList.toggle('is-open', !open);
+        panel.hidden = open;
+      });
+    });
+
+    document.querySelectorAll('.mxa-awards,.mxa-story,.mxa-documents,.spec-table').forEach(function (section) { section.remove(); });
+    var related = Array.prototype.find.call(document.querySelectorAll('section.section'), function (section) {
+      var heading = section.querySelector('h2');
+      return heading && /您可能也会喜欢|You may also like/i.test(heading.textContent);
+    });
+    if (!related) return;
+    related.id = 'related-products';
+    related.className = 'product-related';
+    var relatedHeading = related.querySelector('h2');
+    if (relatedHeading) relatedHeading.textContent = isEnglish ? 'Related products' : '相关产品';
+    var eyebrow = related.querySelector('.eyebrow-s');
+    if (eyebrow) eyebrow.remove();
+    var track = related.querySelector('.cards');
+    if (track) {
+      track.classList.add('related-track');
+      var viewport = document.createElement('div');
+      viewport.className = 'related-viewport';
+      track.parentNode.insertBefore(viewport, track);
+      viewport.appendChild(track);
+      var controls = document.createElement('div');
+      controls.className = 'related-controls';
+      controls.innerHTML = '<button type="button" aria-label="' + (isEnglish ? 'Previous products' : '上一组产品') + '">←</button><button type="button" aria-label="' + (isEnglish ? 'Next products' : '下一组产品') + '">→</button>';
+      related.insertBefore(controls, viewport);
+      var buttons = controls.querySelectorAll('button');
+      buttons[0].addEventListener('click', function () { viewport.scrollBy({left:-viewport.clientWidth * .8,behavior:'smooth'}); });
+      buttons[1].addEventListener('click', function () { viewport.scrollBy({left:viewport.clientWidth * .8,behavior:'smooth'}); });
+    }
+    advantages.insertAdjacentElement('afterend', related);
   }
 
   function setupIcons() {
@@ -407,10 +499,12 @@
   }
 
   setupHeaderSearch();
+  setupMegaMenuGeometry();
   setupSearchPage();
   setupDealerPage();
   setupProductPage();
   setupMXA925Page();
+  finalizeProductDetailFlow();
   setupIcons();
   setupCookiePreferences();
   setupForms();
